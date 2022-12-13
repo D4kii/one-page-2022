@@ -6,6 +6,13 @@ body{
     color: #ffffff;
 }
 main{
-    justify-content: space-between;
-        
+    width: 100%;
+    opacity: 0.95;
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+section{
+    margin: auto;
 }
