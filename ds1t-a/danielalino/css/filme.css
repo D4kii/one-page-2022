@@ -1,0 +1,56 @@
+.filme{
+    height: 120vh;
+    position: absolute;
+    display: grid;
+    width: 98%;
+    left: 1%;
+    gap: 10rem;
+    background-color: #fdc6e6;
+    opacity: 0.95;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:"titulo rachel" 
+    "texto rachel";
+   
+}
+.titulo-group-filme{
+    margin-top: 6rem;
+    margin-left: 10rem;
+    grid-template-areas: 
+    "titulo"
+    "texto";
+}
+.rachel-img{
+    margin-top: -2rem;
+    grid-area: rachel;
+    height: 35rem;
+    width: 25rem;
+    margin-right: 10rem;
+}
+.rachel-div{
+    grid-area: rachel;
+    
+    height: 25rem;
+    margin-top: -15rem;
+}
+.legenda-image{
+    font-family: 'Montserrat', sans-serif;
+    color: #270F34;
+    font-size: 1rem;
+}
+.filme--title{
+    font-family: 'Electrolize', sans-serif;
+    grid-area: titulo;
+    font-size: 6rem;
+    color: #270F34;
+    position: relative;
+}
+.filme--text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5rem;
+    grid-area: texto;
+    width: 50rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    color: #75106A;
+}

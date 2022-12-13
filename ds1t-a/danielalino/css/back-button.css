@@ -1,0 +1,22 @@
+.back{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #3a34aa;
+    right: 16px;
+    color: #000;
+    bottom: 16px;
+    z-index: 666;
+    border-radius: 50%;
+    right: 24px;
+    opacity: .5;
+    display: grid;
+    bottom: 24px;
+    place-content: center;
+    
+    transition: opacity .5s;
+    border: black;
+}
+.fa-solid fa-chevron-up{
+    position: absolute;
+}

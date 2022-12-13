@@ -1,0 +1,12 @@
+.main-box{
+    
+    position: relative;
+    
+    height: 2000px;
+    width: 99%;
+    
+}
+section{
+    justify-content: center;
+    align-items: center;
+}

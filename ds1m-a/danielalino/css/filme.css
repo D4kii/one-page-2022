@@ -1,0 +1,7 @@
+.filme{
+    min-height: 900px;
+    position: absolute;
+}
+.filme--title{
+    font-size: 5rem;
+}

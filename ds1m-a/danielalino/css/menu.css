@@ -1,0 +1,23 @@
+.menu{
+    position: relative;
+    display: flex;
+    gap: 5rem;
+    font-size: 1rem;
+    color: #FCFEF5;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.menu li{
+    color: #FCFEF5;
+    font-weight:bolder;
+    text-decoration:none;
+    list-style-type: none;
+}
+.menu li:hover{
+    
+    text-shadow: 0 0 10px #000;
+}
