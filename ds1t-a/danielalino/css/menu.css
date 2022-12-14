@@ -17,8 +17,8 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-   
-
+    border-bottom: 2px solid #fff;
+    
 }
 .menu-box{
     font-family: 'Roboto', sans-serif;
@@ -28,7 +28,7 @@ header{
     height: 4rem;
     background-color: #bd3c9c;
     margin-top: -1.5rem;
-    opacity: 0.5;
+    opacity: 0.7;
     position: fixed;
 }
 .menu_mobile-tablet{
@@ -41,7 +41,7 @@ a{
 .menu li{
     font-size: 1.1rem;
     gap: 2rem;
-    color: #ffff;
+    color: #fff;
     font-weight:bolder;
     position: relative;
     text-decoration:none;
@@ -49,5 +49,5 @@ a{
 }
 .menu li:hover{
     
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #f8bfe5;
 }

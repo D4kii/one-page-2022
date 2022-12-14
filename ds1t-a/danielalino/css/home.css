@@ -6,11 +6,14 @@
     display: flex;
     font-family: 'Blade Runner Movie Font', sans-serif;
     align-items: center;
+    color: #f8bfe5;
     
 }
 .titulo-group-home{
-    justify-content: flex-start;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .home video{
     position: fixed;
@@ -24,11 +27,10 @@
 .home--title{
     justify-content: center;
     font-size: 8rem;
-    color: #f8bfe5;
 }
 .home--subtitle{
+    
     position: relative;
     font-size: 5rem;
     stroke: black;
-    color: #f8bfe5;
 }
