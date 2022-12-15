@@ -1,8 +1,10 @@
 .personagens{
-    width: 90%;
+    width: 100%;
     min-width: 100vh;
-    border: solid #270F34;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #c9bee2;
 }
 .personagens nav{
     max-width: 1500px;
@@ -27,18 +29,65 @@
     width: 100%;
     border-radius: 100%;
 }
-.container-k{
-
+.container-k,
+.container-rick,
+.container-joi,
+.container-mariette,
+.container-luv,
+.container-ana,
+.container-joshi,
+.container-freysa,
+.container-wallace{
+    height:60vh;
+    width: 75%;
     gap: 1rem;
     justify-content: space-between;
     display: flex;
-    margin-left: 1rem;
-    margin-right: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    border: solid #270F34;
+    border: solid .5px #270F34;
+    place-content: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+.perfil{
+    position: relative;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #270F34;
+}
+.perfil video{
+    height: 400px;
+    align-self: center;
+    max-width: 700px;
+    
+}
+
+.nome-personagem{
+    font-size: 5rem;
+}
+.nome-ator{
+    font-size: 2.2rem;
+}
+.bio-personagem{
+    font-size: 1.4rem;
+    color:#fff;
+    margin-top: 1rem;
 }
 .description{
+    font-family: 'Electrolize', sans-serif;
+    margin-top: 4rem;
+    margin-right: 3rem;
     text-align: end;
-    
+    color: #000000;
+    gap: rem;
 }

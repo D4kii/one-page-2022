@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/filme.css">
     <link rel="stylesheet" href="css/personagens.css">
+    <script src="lo.js"></script>
 
     <title>Blade Runner</title>
 </head>
@@ -119,56 +120,231 @@
             <nav>
 
                 <ul class="menu-personagens">
-                    <li>
-                        <img src="/ds1t-a/danielalino/img/K-icon.png" alt="K">
+                    <li> 
+                        <a href="" id="icon-k">
+                            <img class="icon-k" src="/ds1t-a/danielalino/img/K-icon.png" alt="K">
+                        </a>
+                            
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/rick-icon.png" alt="rick">
+                        <a href="" id="icon-rick">
+                            <img class="icon-rick" src="/ds1t-a/danielalino/img/rick-icon.png" alt="rick">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/joi-icon.png" alt="joi">
+                        <a href="" id="icon-joi">
+                            <img class="icon-joi" src="/ds1t-a/danielalino/img/joi-icon.png" alt="joi">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/mariette-icon.png" alt="mariette">
+                        <a href="" id="icon-mariette">
+                            <img class="icon-mariette"src="/ds1t-a/danielalino/img/mariette-icon.png" alt="mariette">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/luv-icon.png" alt="luv">
+                       <a href="" id="icon-luv">
+                            <img class="icon-luv" src="/ds1t-a/danielalino/img/luv-icon.png" alt="luv">
+                       </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/ana-icon.png" alt="ana">
+                        <a href="" id="icon-ana">
+                            <img class="icon-ana" src="/ds1t-a/danielalino/img/ana-icon.png" alt="ana">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/joshi-icon.png" alt="joshi">
+                        <a href="" id="icon-joshi">
+                            <img class="icon-joshi" src="/ds1t-a/danielalino/img/joshi-icon.png" alt="joshi">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/freysa-icon.png" alt="freysa">
+                        <a href="" id="icon-freysa">
+                            <img class="icon-freysa" src="/ds1t-a/danielalino/img/freysa-icon.png" alt="freysa">
+                        </a>
                     </li>
                     <li>
-                        <img src="/ds1t-a/danielalino/img/wallace-icon.png" alt="niander-wallace">
+                        <a href="" id="icon-niander">
+                            <img class="icon-niander" src="/ds1t-a/danielalino/img/wallace-icon.png" alt="niander-wallace">
+                        </a>
                     </li>
 
                 </ul>
 
             </nav>
 
-            <div class="container-k" id="K">
+            <section class="container-rick container" id="rick">
 
-                <div class="foto-de-perfil">
+                <div class="perfil">
                     <video autoplay muted loop>
-                        <source src="/ds1t-a/danielalino/video/k-video.mp4" type="video/mp4">
+                        <source src="/ds1t-a/danielalino/video/rick-deckard.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Rick Deckard</h2>
+                        <h3 class="nome-ator">(Harrison Ford)</h3>
+                    </div>
+                    <p class="bio-personagem">Deckard era um caçador de androides. Sua função era de aposentar androides
+                        orgânicos, conhecidos como replicantes, que estavam na Terra ilegalmente. Porém em sua época
+                        como Blade Runner(caçador de androides) se apaixona por Rachel, uma replicante.</p>
+                </div>
+
+            </section>
+
+            <section class="container-k container" id="k">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/blade-runner-k.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="description">
                     <div class="titulo">
                         <h2 class="nome-personagem">K</h2>
-                        <h3 class="nome-ator">Ryan Gosling</h3>
+                        <h3 class="nome-ator">(Ryan Gosling)</h3>
                     </div>
                     <p class="bio-personagem">Um novo modelo criado para obedecer ordens, trabalha como blade runner
                         para o Departamento de Polícia de Los Angeles, caçando e "aposentando" (matando) antigos modelos
                         (rebeldes hostis a ordens) que ainda estão à solta.</p>
                 </div>
-                
-            </div>
+
+            </section>
+
+            <section class="container-joi container" id="joi">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/joi-perfil.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Joi</h2>
+                        <h3 class="nome-ator">(Ana de Armas)</h3>
+                    </div>
+                    <p class="bio-personagem">Joi era uma marca de DiJi projetada pela Wallace Corporation, uma espécie
+                        de holograma. Um desses
+                        produtos, Joi, era de propriedade do Blade Runner K, funcionando como sua parceira doméstica.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="container-mariette container" id="mariette">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/mariette.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Mariette</h2>
+                        <h3 class="nome-ator">(Mackenzie Davis)</h3>
+                    </div>
+                    <p class="bio-personagem">Mariette era uma replicante Nexus-8 que trabalhava como doxie (uma pessoa
+                        treinada para usar sexo para cumprir seus deveres). Ela também
+                        era membro do grupo de liberdade replicante liderado por Freysa Sadeghpour .</p>
+                </div>
+
+            </section>
+
+            <section class="container-luv container" id="luv">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/luv.mp4" type="video/mp4">
+                    </video>
+                    <span>"O melhor anjo de todos. Não é você, Luv?"</span>
+                    
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Luv</h2>
+                        <h3 class="nome-ator">(Sylvia Hoeks)</h3>
+                    </div>
+                    <p class="bio-personagem">Luv era uma replicante modelo Nexus-9 que foi inicialmente presenteada ao
+                        Departamento de Polícia de Los Angeles por Niander Wallace para que ela pudesse servir como uma
+                        Blade Runner e definir o padrão para o desempenho do Nexus-9. Em 2049, ela começou a trabalhar
+                        como assistente pessoal de Wallace. Luv admirava Wallace e sua
+                        visão para o futuro dos replicantes.</p>
+                </div>
+
+            </section>
+
+            <section class="container-ana container" id="ana">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/ana-stelline.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Dr.Ana Stelline</h2>
+                        <h3 class="nome-ator">(Carla Juri)</h3>
+                    </div>
+                    <p class="bio-personagem">Stelline nasceu em 10 de junho de 2021, filha do ex- Blade Runner Rick
+                        Deckard e Rachael, uma replicante Nexus-7, fazendo dela a primeira criança nascida replicante.
+                        No entanto, Rachael morreu como resultado de uma cesariana de emergência de Stelline.</p>
+                </div>
+
+            </section>
+
+            <section class="container-joshi container" id="joshi">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/blade-runner-k.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Joshi</h2>
+                        <h3 class="nome-ator">(Robin Wright)</h3>
+                    </div>
+                    <p class="bio-personagem">O tenente Joshi era membro da Divisão de Aposentadoria do Departamento de
+                        Polícia de Los Angeles e superior do oficial K , um Blade Runner.</p>
+                </div>
+
+            </section>
+
+            <section class="container-freysa container" id="freysa">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/blade-runner-k.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Freysa</h2>
+                        <h3 class="nome-ator">(Hiam Abbass)</h3>
+                    </div>
+                    <p class="bio-personagem">Freysa Sadeghpour era uma engenheira de combate replicante Nexus-8 e líder
+                        de um grupo de liberdade replicante. Freysa também se tornou a líder de um crescente movimento
+                        de resistência replicante em algum dos replicantes.</p>
+                </div>
+
+            </section>
+
+            <section class="container-wallace container" id="wallace">
+
+                <div class="perfil">
+                    <video autoplay muted loop>
+                        <source src="/ds1t-a/danielalino/video/blade-runner-k.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="description">
+                    <div class="titulo">
+                        <h2 class="nome-personagem">Niander Wallace</h2>
+                        <h3 class="nome-ator">(Jared Letto)</h3>
+                    </div>
+                    <p class="bio-personagem">Niander Wallace Jr., o grande antagonista da trama, foi um cientista
+                        fabricante de replicantes, tecnólogo e CEO da empresa de fabricação de replicantes, Wallace
+                        Corporation.</p>
+                </div>
+
+            </section>
 
         </section>
         <section class="simbologia" id="simbologia">
@@ -190,6 +366,7 @@
 
     </main>
 
+    
 </body>
 
 </html>
