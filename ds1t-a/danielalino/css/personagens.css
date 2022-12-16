@@ -35,26 +35,21 @@
     margin-bottom:2rem;
 }
 
-.menu-personagens li{
-    height: 200px;
-    width: 200px;
-    
-   
-}
 .menu-personagens img{
     height: 100%;
     width: 100%;
-    
+    border-radius: 50%;
 }
 .menu-personagens li{
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     cursor: pointer;
-    transform: translateY(100%);
     transition: all .5s;
 }
 .menu-personagens li:hover{
-    -webkit-filter: drop-shadow(0 0 30px rgb(110, 16, 82));
-    filter: drop-shadow(0 0 30px rgb(214, 206, 92));
+    -webkit-filter: drop-shadow(0 0 40px rgb(214, 206, 92));
+    filter: drop-shadow(0 0 25px rgb(110, 16, 82));
 }
 
 .k,

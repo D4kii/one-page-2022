@@ -9,9 +9,6 @@
     const iconFreysa = document.querySelector('.icon-freysa');
     const iconWallace = document.querySelector('.icon-niander');
 
-    
-
-
 function onRick () {
     const container = document.getElementById('rick')
     const containerJoi = document.getElementById('joi')

@@ -8,7 +8,7 @@ body{
 main{
     opacity: 0.95;
     position: relative;
-    background-color: #ebefee;
+    background-color: #ffffff;
     max-height: 500vh;
     width: 100%;
 }
@@ -17,4 +17,7 @@ section{
 }
 html{
     scroll-behavior: smooth;
+}
+footer{
+    display: flex;
 }
