@@ -19,6 +19,7 @@
     margin-top: 2rem;
     margin-bottom:2rem;
 }
+
 .menu-personagens li{
     height: 200px;
     width: 200px;
@@ -44,7 +45,6 @@
     justify-content: space-between;
     display: flex;
     margin-bottom: 1rem;
-    position: relative;
     border: solid .5px #270F34;
     place-content: center;
     align-self: center;
@@ -89,5 +89,5 @@ ul, ol, li{
     margin-right: 3rem;
     text-align: end;
     color: #000000;
-    gap: rem;
+    gap: 1rem;
 }
