@@ -1,0 +1,32 @@
+.distopia{
+    height:100vh;
+    width: 90%;
+    justify-content: space-between;
+    place-content: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text-group-distopia{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.distopia--title{
+    font-family: 'Electrolize', sans-serif;
+    grid-area: titulo;
+    display: flex;
+    font-size: 10rem;
+    color: #270F34;
+    position: relative;
+}
+.distopia--text{
+    font-family: 'Montserrat', sans-serif;
+    grid-area: texto;
+    display: flex;
+    font-size: 1.5rem;
+    color: #75106A;
+    width: 95%;
+}

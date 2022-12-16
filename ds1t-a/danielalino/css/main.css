@@ -3,12 +3,12 @@
     opacity: 0.95;
     position: relative;
     background-color: #ffffff;
-    height: 2000px;
+    min-height: 500vh;
     width: 100%;
     
 }
-.container{
-    display: none;
+.container.on{
+    display: block;
 }
 
 section{

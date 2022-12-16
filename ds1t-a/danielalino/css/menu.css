@@ -48,6 +48,6 @@ a{
     list-style-type: none;
 }
 .menu li:hover{
-    
+    transition: .2s;
     text-shadow: 0 0 10px #f8bfe5;
 }

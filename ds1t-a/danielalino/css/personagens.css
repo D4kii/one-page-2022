@@ -10,6 +10,21 @@
     max-width: 1500px;
     margin: auto;
 }
+.perfil{
+    height:70vh;
+    width: 150vh;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border: solid .5px #270F34;
+    place-content: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+    display: flex;
+}
 .menu-personagens{
     justify-content: center;
     align-items: center;
@@ -24,48 +39,49 @@
     height: 200px;
     width: 200px;
     
+   
 }
 .menu-personagens img{
     height: 100%;
     width: 100%;
-    border-radius: 100%;
+    
 }
-.container-k,
-.container-rick,
-.container-joi,
-.container-mariette,
-.container-luv,
-.container-ana,
-.container-joshi,
-.container-freysa,
-.container-wallace{
-    height:60vh;
-    width: 75%;
-    gap: 1rem;
-    justify-content: space-between;
-    display: flex;
-    margin-bottom: 1rem;
-    border: solid .5px #270F34;
-    place-content: center;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Electrolize', sans-serif;
+.menu-personagens li{
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100%);
+    transition: all .5s;
+}
+.menu-personagens li:hover{
+    -webkit-filter: drop-shadow(0 0 30px rgb(110, 16, 82));
+    filter: drop-shadow(0 0 30px rgb(214, 206, 92));
+}
+
+.k,
+.rick,
+.joi,
+.mariette,
+.luv,
+.ana,
+.joshi,
+.freysa,
+.wallace{
+    display: none;
 }
 ul, ol, li{
     list-style: none;
 }
 
-.perfil{
+.video-perfil{
     position: relative;
     margin-left: 3rem;
     justify-content: center;
+    font-style: italic;
     align-items: center;
     font-size: 1.3rem;
-    color: #270F34;
+    color: #37150a;
 }
-.perfil video{
+.video-perfil video{
     height: 400px;
     align-self: center;
     max-width: 700px;
@@ -79,8 +95,8 @@ ul, ol, li{
     font-size: 2.2rem;
 }
 .bio-personagem{
-    font-size: 1.4rem;
-    color:#fff;
+    font-size: 1.6rem;
+    color: #ffff;
     margin-top: 1rem;
 }
 .description{
