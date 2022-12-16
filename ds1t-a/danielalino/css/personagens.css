@@ -5,14 +5,15 @@
     display: flex;
     flex-direction: column;
     background-color: #c9bee2;
+    align-items: center;
 }
 .personagens nav{
     max-width: 1500px;
     margin: auto;
 }
 .perfil{
-    height:70vh;
-    width: 150vh;
+    height:100vh;
+    width: 180vh;
     gap: 1rem;
     justify-content: space-between;
     margin-bottom: 1rem;
@@ -21,9 +22,7 @@
     align-self: center;
     align-content: center;
     justify-content: center;
-    align-items: center;
     font-family: 'Electrolize', sans-serif;
-    display: flex;
 }
 .menu-personagens{
     justify-content: center;
@@ -69,36 +68,42 @@ ul, ol, li{
 
 .video-perfil{
     position: relative;
-    margin-left: 3rem;
     justify-content: center;
-    font-style: italic;
+    place-content: center;
+    align-self: center;
     align-items: center;
     font-size: 1.3rem;
     color: #37150a;
 }
 .video-perfil video{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     height: 400px;
     align-self: center;
     max-width: 700px;
-    
+    justify-content: center;
+    place-content: center;
+    font-style: italic;
+    align-items: center;
 }
 
 .nome-personagem{
     font-size: 5rem;
 }
 .nome-ator{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .bio-personagem{
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #ffff;
     margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 .description{
     font-family: 'Electrolize', sans-serif;
     margin-top: 4rem;
     margin-right: 3rem;
-    text-align: end;
+    text-align: center;
     color: #000000;
     gap: 1rem;
 }

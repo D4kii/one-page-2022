@@ -6,7 +6,6 @@
     const iconLuv = document.querySelector('.icon-luv');
     const iconAna = document.querySelector('.icon-ana')
     const iconJoshi = document.querySelector('.icon-joshi');
-    const iconFreysa = document.querySelector('.icon-freysa');
     const iconWallace = document.querySelector('.icon-niander');
 
 function onRick () {
@@ -17,7 +16,6 @@ function onRick () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
     
     containerJoi.classList.remove('on')
@@ -26,7 +24,6 @@ function onRick () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     container.classList.add ('on')
 }
@@ -39,7 +36,6 @@ function onJoi () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -47,7 +43,6 @@ function onJoi () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -60,7 +55,6 @@ function onMariette () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -68,7 +62,6 @@ function onMariette () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -81,7 +74,6 @@ function onLuv () {
     const container = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -89,7 +81,6 @@ function onLuv () {
     containerJoi.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -102,7 +93,6 @@ function onAna () {
     const containerLuv = document.getElementById('luv')
     const container = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -110,7 +100,6 @@ function onAna () {
     containerLuv.classList.remove ('on')
     containerJoi.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -123,7 +112,6 @@ function onJoshi () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const container= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -131,32 +119,11 @@ function onJoshi () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
 }
-function onFreysa () {
-    const containerRick = document.getElementById('rick')
-    const containerJoi = document.getElementById('joi')
-    const containerK = document.getElementById('k')
-    const containerMariette = document.getElementById('mariette')
-    const containerLuv = document.getElementById('luv')
-    const containerAna = document.getElementById('ana')
-    const containerJoshi= document.getElementById('joshi')
-    const container = document.getElementById('freysa')
-    const containerWallace = document.getElementById('wallace')
 
-    containerK.classList.remove ('on')
-    containerMariette.classList.remove('on')
-    containerLuv.classList.remove ('on')
-    containerAna.classList.remove('on')
-    containerJoshi.classList.remove ('on')
-    containerJoi.classList.remove ('on')
-    containerWallace.classList.remove ('on')
-    containerRick.classList.remove('on')
-    container.classList.add ('on')
-}
 function onWallace () {
     const containerRick = document.getElementById('rick')
     const containerJoi = document.getElementById('joi')
@@ -165,7 +132,6 @@ function onWallace () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const container = document.getElementById('wallace')
 
     containerK.classList.remove ('on')
@@ -173,7 +139,6 @@ function onWallace () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerJoi.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -186,7 +151,6 @@ function onK () {
     const containerLuv = document.getElementById('luv')
     const containerAna = document.getElementById('ana')
     const containerJoshi= document.getElementById('joshi')
-    const containerFreysa = document.getElementById('freysa')
     const containerWallace = document.getElementById('wallace')
 
     containerJoi.classList.remove ('on')
@@ -194,7 +158,6 @@ function onK () {
     containerLuv.classList.remove ('on')
     containerAna.classList.remove('on')
     containerJoshi.classList.remove ('on')
-    containerFreysa.classList.remove ('on')
     containerWallace.classList.remove ('on')
     containerRick.classList.remove('on')
     container.classList.add ('on')
@@ -207,5 +170,4 @@ iconMariette.addEventListener('click', onMariette)
 iconLuv.addEventListener('click', onLuv)
 iconAna.addEventListener('click', onAna)
 iconJoshi.addEventListener('click', onJoshi)
-iconFreysa.addEventListener('click', onFreysa)
 iconWallace.addEventListener('click', onWallace)

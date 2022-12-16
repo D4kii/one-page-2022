@@ -9,7 +9,7 @@ main{
     opacity: 0.95;
     position: relative;
     background-color: #ffffff;
-    max-height: 500vh;
+    max-height: 700vh;
     width: 100%;
 }
 section{
@@ -19,5 +19,44 @@ html{
     scroll-behavior: smooth;
 }
 footer{
-    display: flex;
+    height: 150px;
+    place-self: end center;
+    background-color: #ffffff;
+    justify-content:first baseline;
+    opacity: .95;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
 }
+.footer-text{
+    margin-top: 50px;
+    color: #75106A;
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 8px;
+    margin-left: 50px;
+  }
+  .footer-text::before,
+  .footer-text::after {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    width: 1em;
+    height: 0.05em;
+    background-color: #75106A;
+    left: -1.5em;
+  }
+  .line::before {
+    content: " ";
+    background-color: #75106A;
+    display: block;
+    height: .5px;
+    width: 100%;
+  
+  }
+  .footer-text::after {
+    left: initial;
+    right: -1.25em;
+  }
